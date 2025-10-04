@@ -1,0 +1,22 @@
+# 系统 & 编辑器缓存
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
+node_modules/
+
+# Hexo 生成目录
+public/
+.deploy*/
+db.json
+
+# npm 缓存文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 其他（可选）
+coverage/
