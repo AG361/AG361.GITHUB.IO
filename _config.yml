@@ -121,4 +121,6 @@ jsonContent:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'git@AG361.github.com:AG361/AG361.GITHUB.IO.git'
+  branch: 'master'
