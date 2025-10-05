@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 · 页面罢工 | ARTHURGUO.COM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #fefefe;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 500px;
+    }
+    h1.code {
+      font-size: 120px;
+      font-weight: bold;
+      margin: 0;
+      color: #007BFF;
+    }
+    h2 {
+      font-size: 36px;
+      margin: 10px 0 20px 0;
+    }
+    p {
+      font-size: 18px;
+      margin: 0 0 15px 0;
+      line-height: 1.6;
+    }
+    ul {
+      text-align: left;
+      margin: 10px 0 20px 0;
+      padding-left: 0;              /* 去掉默认缩进 */
+      list-style-position: inside;   /* 圆点在文字内 */
+    }
+    li {
+      line-height: 22px
+      font-size: 14px;               /* 比正文小一点 */
+      margin-bottom: 8px;
+      padding-left: 20px;            /* 圆点留出空间 */
+    }
+    .possible{
+      text-align: left;
+      font-weight: bold;
+      text-indent: 18px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background-color: #0056b3;
+    }
+    @media (max-width: 480px) {
+      h1.code { font-size: 80px; }
+      h2 { font-size: 28px; }
+      p { font-size: 16px; }
+      li { font-size: 14px; padding-left: 16px; } /* 响应式 li */
+      a.button { font-size: 14px; padding: 10px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="code">404</h1>
+    <h2>Not Found :(</h2>
+    <p>很抱歉，您访问的页面正在罢工!</p>
+    <p class="possible">可能原因：</p>
+    <ul>
+      <li>您访问的网址有雾...</li>
+      <li>您访问的网页已被吸进黑洞...</li>
+      <li>您访问的网页已经被我删除，请带上干脆面联系我...</li>
+      <li>我正在维护网站，您可以尝试点击下面先去翻阅我的帖子...</li>
+    </ul>
+    <a class="button" href="/">🏠 返回首页</a>
+  </div>
+</body>
+</html>
