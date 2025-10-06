@@ -2,7 +2,7 @@
 title: "Hexo + GitHub Pages 博客搭建教程"
 date: 2022-10-04
 tags:
-   - 博客
+   - blog
    - hexo
 ---
 # 
