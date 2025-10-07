@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .left-col {
+    display: none !important;
+  }
+  .mid-col {
+    width: 100% !important;
+  }
+}

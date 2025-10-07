@@ -38,7 +38,7 @@ function handleClick(type, opts) {
 	} else if (type === 'facebook') {
 		generate('https://www.facebook.com/sharer/sharer.php?u=<%-sUrl%>', opts)
 	} else if (type === 'twitter') {
-		generate('https://twitter.com/intent/tweet?text=<%-sTitle%>&url=<%-sUrl%>&via=<%-config.url%>', opts)
+		generate('https://twitter.com/intent/tweet?text=<%-sTitle%>&url=<%-sUrl%>&via='+location.hostname, opts)
 	} else if (type === 'google') {
 		generate('https://plus.google.com/share?url=<%-sUrl%>', opts)
 	} else if (type === 'weixin') {
